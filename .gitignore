@@ -1,0 +1,12 @@
+# Python 檔案忽略
+*.pyc
+__pycache__/
+
+# 資料庫檔案 (SQLite)
+db.sqlite3
+
+# 靜態檔案資料夾 (Render 會自動生成)
+staticfiles/
+
+# 環境變數檔案（如果有）
+.env
